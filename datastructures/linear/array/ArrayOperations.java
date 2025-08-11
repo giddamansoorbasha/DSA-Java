@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class ArrayOperations {
 
-	// Insert Operation 
 	public int[] insert(int[] array, int data, int index) {
 	    int[] newArr = new int[array.length + 1];
 	    for (int i = 0, j = 0; i < newArr.length; i++) {
@@ -16,7 +15,6 @@ public class ArrayOperations {
 	    return newArr;
 	}
 
-    // Delete Operation
 	public int[] delete(int[] array, int data) {
 	    int count = 0;
 	    for (int i = 0; i < array.length; i++) {
@@ -33,7 +31,6 @@ public class ArrayOperations {
 	    return newArr;
 	}
 
-    // Search Operation
 	public int search(int[] array, int data) {
 	    for (int i = 0; i < array.length; i++) {
 	        if (array[i] == data) {
@@ -42,7 +39,6 @@ public class ArrayOperations {
 	    }return -1; 
 	}
 
-    // Display Operation
 	public void display(int[] array) {
 	    System.out.print("Array : ");
 	    for (int data : array) {
@@ -50,13 +46,11 @@ public class ArrayOperations {
 	    }System.out.println();
 	}
 
-
 	public static void main(String[] args) {
 		ArrayOperations array = new ArrayOperations();
         Scanner sc = new Scanner(System.in);
 
         int[] arr = {};
-
         while (true) {
             System.out.println("\n----- Array Operations Menu -----\n");
             System.out.println("1. Insert");
