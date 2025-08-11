@@ -1,4 +1,4 @@
-package datastructures.linear.array;
+package DataStructures.Linear.array;
 import java.util.Scanner;
 
 public class ArrayOperations {
