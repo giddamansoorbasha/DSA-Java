@@ -1,4 +1,4 @@
-class RemoveDuplicatesFromSortedArray{
+class RemoveDuplicatesFromSortedArray26{
 
     public int removeDuplicates(int[] array){
 
